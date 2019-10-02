@@ -1,0 +1,9 @@
+- create_structure.py  
+- Dockerfile  
+- main.py  
+- pydocmd.yml  
+- README.md  
+- requirements.txt  
+- structure.md  
+- **utils/**  
+	- data.py  

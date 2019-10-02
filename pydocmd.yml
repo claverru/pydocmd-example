@@ -1,0 +1,19 @@
+site_name: pydoc-markdown example
+
+# generate:
+#  - baz/cool-stuff.md:
+#    - foobar.baz:
+#      - foobar.baz.CoolClass+     # (+ to include members)
+#      - foobar.baz.some_function
+#  - baz/more-stuff.md:
+#    - foobar.more++               # (++ to include members, and their members)
+
+generate:
+  - data.md:
+    - utils.data++
+
+pages:
+- Home: index.md << README.md
+- Structure: structure.md << structure.md
+- Utils: 
+  - Data: data.md

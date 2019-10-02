@@ -1,0 +1,18 @@
+# Cache
+**/__pycache__
+
+# pydoc-markdown & mkdocs stuff
+_build
+mkdocs.yml
+
+# data & stuff
+pickles/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
